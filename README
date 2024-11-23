@@ -1,4 +1,5 @@
 Dynamics 365 CE - Record Deletion Solution
+
 This repository contains a Dynamics 365 Customer Engagement (CE) solution package that includes a custom table named "Record Deletion".
 
 Features:
