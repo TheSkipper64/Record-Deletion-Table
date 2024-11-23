@@ -1,2 +1,33 @@
-# Dynamics-365-CE
-This is a test. This is only a test . . . 
+Dynamics 365 CE - Record Deletion Solution
+This repository contains a Dynamics 365 Customer Engagement (CE) solution package that includes a custom table named "Record Deletion".
+
+Features:
+The Record Deletion table is designed to log selected field values of a record prior to deletion, providing future reference for use in processes such as Power Automate flows.
+
+Objects:
+The package includes:
+- Table Columns
+- Table Forms
+- Table Views
+- Sample Workflows (2)
+
+Several sample workflows for Accounts and Contacts demonstrate how to use the Record Deletion table to trigger Power Automate flows on delete events.
+These workflows are disabled by default and can be enabled as needed.
+
+Prerequisites:
+To ensure proper execution of the solution, you must install the Dynamics 365 Workflow Tools in your environment. This solution leverages the "Get Record ID" functionality from the Workflow Tools.
+
+Usage:
+Import the solution package into your Dynamics 365 CE environment.
+Enable the sample workflows if required.
+Modify the existing workflows or create new ones.
+Design Power Automate flows to utilize the Record Deletion table by triggering on the creation of a Record Deletion and filtering based on the Table Name/ID and Field Name/Value.
+Note: The record Name/Id can also be used for filtering but is more so for quick reference.
+This solution provides a foundation for tracking deleted records and extending functionality within your Dynamics 365 CE environment.
+
+
+
+
+
+
+
