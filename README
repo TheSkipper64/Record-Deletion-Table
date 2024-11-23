@@ -10,7 +10,6 @@ The package includes:
 - Table Forms
 - Table Views
 - Sample Workflows (2)
-
 Several sample workflows for Accounts and Contacts demonstrate how to use the Record Deletion table to trigger Power Automate flows on delete events.
 These workflows are disabled by default and can be enabled as needed.
 
